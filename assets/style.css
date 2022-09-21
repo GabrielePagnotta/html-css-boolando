@@ -66,8 +66,9 @@ span {
 .box-mid {
     width: calc(100%/3 - 10px);
     height: 700px;
-    background-color: blue;
+    /* background-color: blue; */
     object-fit: contain;
+    cursor: pointer;
 }
 
 .box-footer {
@@ -82,12 +83,14 @@ span {
     font-size: 1rem;
     color: white;
     padding: 10px;
+    cursor: pointer;
 
 }
 
 .logo {
     width: 60%;
     padding-top: 5px;
+    cursor: pointer;
 
 
 }
@@ -203,6 +206,7 @@ span {
     margin-top:5px;
     color: white;
     word-spacing: 5px;
+    cursor: pointer;
 }
 
 .footer-icons{
@@ -212,6 +216,7 @@ span {
     word-spacing: 5px;
     position: absolute;
     right: 0;
+    cursor: pointer;
 }
 
 .trovaci{
