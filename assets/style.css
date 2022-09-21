@@ -39,9 +39,9 @@ header{
 .container-footer{
     width:80%;
     background-color: red;
-    margin:0% 10%;
-    justify-content: center;
-    justify-content: space-between;
+    margin:7% 10%;
+    
+    
 }
 
 .box-header{
@@ -51,7 +51,7 @@ header{
 }
 
 .box-mid{
-    width:30%;
+    width:calc(100%/3 - 10px);
     height:700px;
     background-color: blue;
     object-fit: contain;
@@ -61,6 +61,7 @@ header{
     width:10%;
     background-color: blue;
     border:1px solid black;
+    
 
 }
 
@@ -94,7 +95,7 @@ header{
 
 .levis{
 margin-top:10px;
-disply:inline;
+
 }
 
 .price-1{
@@ -174,7 +175,7 @@ disply:inline;
     }
 
     .color-1:hover{
-display: none;
+    display: none;
     }
 
 
