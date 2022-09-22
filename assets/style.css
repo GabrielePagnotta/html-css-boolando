@@ -5,7 +5,6 @@
 }
 
 header {
-    background-attachment: fixed;
     position:fixed;
     top:0;
     width:100%;
@@ -22,6 +21,7 @@ span {
     display: flex;
 }
 
+/* varoius container */
 .container-header {
     width: 80%;
     height: 50px;
@@ -55,6 +55,8 @@ span {
 
 
 }
+
+/* boxes */
 
 .box-header {
     width: 15%;
@@ -104,6 +106,7 @@ span {
 
 }
 
+/* description */
 .title-description {
     font-weight: bold;
 }
@@ -126,7 +129,7 @@ span {
     text-decoration-line: line-through;
 }
 
-
+/* cards */
 .box-mid:hover .img-1 {
     display: none;
 }
@@ -202,6 +205,7 @@ span {
     display: block;
 }
 
+/* top icons */
 .header-icons{
     margin-top:5px;
     color: white;
@@ -209,6 +213,7 @@ span {
     cursor: pointer;
 }
 
+/* bottom icons */
 .footer-icons{
     color:white;
     margin-top:50px;
